@@ -1,44 +1,45 @@
-# Laracamp Component Library
+# Laracamp-web
 
-Welcome to the Laracamp Component Library! This project is a comprehensive, reusable component library built with React, TypeScript, and Storybook. The library follows Atomic Design principles, with components categorized into Atoms, Molecules, and Organisms.
+Laracamp is an online platform for coding lessons, designed to enhance coding skills.
 
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Features](#features)
-- [Storybook](#storybook)
-- [License](#license)
-- [Deployment](#deployment)
-
-## Introduction
-
-The Laracamp Component Library is designed to streamline the development of responsive, reusable UI components across multiple projects. By leveraging React, TypeScript, and Storybook, the library ensures type safety, ease of development, and comprehensive documentation.
+## Overview
+While I am primarily developing a landing page, the objective of this project is to refine my Next.js expertise and to effectively integrate Storybook components.
 
 ## Features
+- Only landing page
 
-- **Responsive Components**: All components are designed to be fully responsive.
-- **Atomic Design**: Components are organized following Atomic Design principles.
-- **TypeScript**: Ensures type safety and better development experience.
-- **Storybook**: Provides an interactive UI component development environment and documentation tool.
+## Tech Stack
+- Next.js
+- TypeScript
+- Storybook
+
+## Getting Started
+
+### Prerequisites
+- Node.js
+- npm or yarn
+
+### Installation
+1. Clone the repository:
+   `git clone https://github.com/yourusername/laracamp.git`
+   `cd laracamp-web`
+2. Install dependencies:
+   `npm install` or `yarn install`
+
+### Running Locally
+To start the development server:
+   `npm run dev` or `yarn dev`
+Visit `http://localhost:3000`.
 
 ## Storybook
+Access the deployed component library [here](https://laracamp-main.netlify.app/?path=/docs/components-badge--docs).
 
-You can explore the components and their various states in the Storybook deployed at https://laracamp-main.netlify.app/.
-
-To run Storybook locally, use the following command:
-```bash
-npm run storybook
-```
-
-or with yarn:
-```bash
-yarn storybook
-```
-
-## License
-
-This project is licensed under the MIT License. See the LICENSE file for details.
+To run Storybook locally:
+   `npm run storybook` or `yarn storybook`
+Visit `http://localhost:6006`.
 
 ## Deployment
+The web version is live [here](https://laracamp-green.vercel.app/).
 
-The code is deployed and accessible at https://laracamp-main.netlify.app/. You can check out the latest documentation and component previews there.
+## License
+Licensed under the MIT License.
